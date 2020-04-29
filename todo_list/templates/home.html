@@ -3,14 +3,14 @@
 {% block content %}
 {% if messages %}
 	{% for message in messages %}
-	<div class="alert alert-warning alert-dismissible show fade" role="alert">
+	<div class="alert alert-success alert-dismissible show fade" role="alert">
 	    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
 	        <span aria-hidden="true">&times;</span>
 	    </button>
 	    <small><sup></sup></small>
 	    </button>
-	    {{ message }}
-	</div>
+	   {{ message }}
+	  </div> 
 	{% endfor %}
 {% endif %}
 {% if all_items %}
